@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<script>
+    let user=prompt('Tên Đăng Nhập','');
+    if (user== 'admin') {
+        alert('wellcome');
+    } else if (user== null) {
+        alert('Bạn cần nhập tên đăng nhập');
+    }else {
+        alert('Tên đăng nhập không chính xác');
+    }
+    let pass=prompt('Mật khẩu','');
+    if (pass=='admin') {
+        alert('wellcome');
+    }else if (pass==null){
+        alert('Ban chưa nhập mật khẩu');
+    }else {
+        alert('Mật khẩu không chính xác');
+    }
+
+
+</script>
+
+</body>
+</html>
